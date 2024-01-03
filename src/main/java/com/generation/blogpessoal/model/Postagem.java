@@ -16,7 +16,7 @@ import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
-@Entity // define que será um tabela
+@Entity // define que será uma tabela
 @Table(name = "tb_postagens") // nomeia a tabela
 public class Postagem {
 
